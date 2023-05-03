@@ -1,0 +1,475 @@
+*{
+    margin-right: 0px;
+    
+    margin-left: 0px;
+}
+body{
+    background: linear-gradient(to right, #EA5FBA,#E47D72,#CF96F7);
+   
+}
+#namev h5 img{
+
+
+    margin-top: -11px;
+    margin-left: 0;
+    margin-top: -19px;
+    }
+
+.home-section .navbar{
+    width: 100%;
+    background-color: white;
+    z-index: 1030;
+    background: linear-gradient(to right, #EA5FBA,#E47D72,#CF96F7);
+}
+.home-section .collapse ul a:hover{
+    color: #1dc9cb !important;
+  
+}
+#namev a{
+    color: aliceblue;
+    margin-right: 47%;
+    font-size: 18px;
+    font-family: none;
+}
+   
+
+#namev ul li{
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+ #butn1{
+    margin-left: 9px;
+    
+        font-size: larger;
+        background-color: #1dc9cb !important;
+            border-color: #1dc9cb !important;
+            transition: all .5s;
+            color: #ffffff !important;
+           
+    }#navbarSupportedContent{
+        align-items: end;
+        
+        
+    }
+   .nav-item{
+display: flex;
+justify-content: space-between;
+
+   }
+#mainNav{
+    position: fixed;
+}
+.navbar-toggler:hover{
+    color: #1dc9cb ;
+    background-color: aliceblue;
+
+}
+    
+    #images1{
+        /* background: linear-gradient(to right, #EA5FBA,#E47D72,#CF96F7,#4381A5); */
+        /* background-color: #CF96F7; */
+        /* background-image: linear-gradient(120deg #EA5FBA,#E47D72,#CF96F7); */
+        /* background-image: url(images/cube.webp); */
+       
+    width: 100%;
+   
+    min-height: 100vh;
+    
+    
+    }
+   
+
+    #images1{
+        min-height: 100vh;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+   .container-fluid h1{
+    margin-top: 113px;
+    font-size: 5.5rem;
+    font-family: 'Roboto';
+            color: #ffffff;
+            
+            margin-left: 94px; 
+    
+   }
+  
+   .container-fluid h3{
+           
+    
+    color: #ffffff;
+    font-family: 'Roboto';
+    margin-left: 94px;
+    font-size: 3.5rem;
+    
+
+}
+.container-fluid h4{
+           
+    /* text-align: center; */
+    color: #ffffff;
+    /* font-family:'Montserrat'; */
+    font-family: 'Roboto';
+    margin-left: 94px;
+    font-size: 1.5rem;
+
+}
+.header3{
+
+text-align: center;
+margin-top: 22px;
+font-family: 'Montserrat';
+color: #1dc9cb;
+
+
+font-size: 2.5rem;
+}
+h5{
+    /* font-family: 'Castoro Titling', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif; */
+font-family: 'Noto Serif', serif;
+}
+
+#image img{
+    margin-top: 62px;
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#about h3 {
+    
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.75rem;
+    font-family: 'Montserrat';
+    
+}
+
+#about h5 {
+    text-align: center;
+ margin-top: 53px;
+ font-size: 1.75rem;
+ text-align: justify;
+}
+ #service-box .ico-circle {
+    /* transition: all 500ms ease; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;}
+    
+    #imagess img {
+        height: 100px;
+        width: 100px;
+        font-size: 2rem;
+        border-radius: 50%;
+        /* line-height: 1.55; */
+        margin: 0 auto;
+        text-align: center;
+      
+        display: block;}
+
+
+
+        .service-box:hover {
+            opacity: 0.5;
+
+        }
+
+        .service-box {
+
+    margin-top: 65px;
+            background-color: #fff;
+            padding: 2.5rem 1.3rem;
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        font-family: 'Montserrat';
+        }
+
+            .headere{
+
+                text-align: center;
+                margin-top:146px;
+                font-family: 'Montserrat';
+                color: #1dc9cb;
+                
+                
+                font-size: 2.5rem;
+                }
+                #imagess img{
+                    margin-top: -92px;
+                      width: 100px;
+                    border-radius: 78px;
+                    background: #a5b1a5;
+                    text-align: center;
+    box-shadow: 0 0 0 10px #d5dde5;
+    display: block;}
+    .service-box  h3
+    {
+        margin-top: 19px;
+        font-size: 2.75rem;
+        font-family: initial ;
+    }
+#small img{
+    width: 100%;
+    height: 368px;padding: 20px;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    background-color: white;
+
+}
+
+#fourimg{
+    margin-top: 118px;
+    margin-bottom: 38px;
+}
+#backimg{
+    background-image: url(images/background6-1920x1280.jpg);
+}
+#backimg{
+    min-height: 50vh;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#imagescom img{
+    margin-top: 0px;
+      width: 100px;
+    border-radius: 78px;
+    background: #a5b1a5;
+    text-align: center;
+box-shadow: 0 0 0 10px #d5dde5;
+display: block;
+
+}
+#imagescom img {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    /* line-height: 1.55; */
+    margin: 0 auto;
+    text-align: center;
+  
+    display: block;
+
+
+}
+#disply{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.service-box1 h5{
+ text-align: center;
+ margin-top: 30px;
+}
+.service-box1 h6{
+   font-family: 'Montserrat';
+   }
+.service-box1 {
+color: #fff;
+    margin-top: 65px;
+            background-color: #4e4a4a;
+            padding: 2.5rem 1.3rem;
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        font-family: 'Montserrat';
+        }
+#work1 p{
+    width: 100%;
+    font-size:1.5rem;
+    font-style: oblique;
+    font-family: ui-rounded;
+}
+      #foems input{
+        
+        width: 100%;
+        min-height: 50px;
+        border-radius: 7px;
+        margin-bottom: 42px;
+        color: gray;
+        font-style: oblique;
+    font-family: 'Montserrat';
+        /* background-color: gray; */
+      }
+    #inputme textarea{
+        
+      min-height: 281px;
+      width: 100%;
+      font-style: oblique;
+      font-family: 'Montserrat';
+      border-radius: 8px;
+    }
+  #button {
+    justify-content: center;
+    display: flex;
+   
+  }
+    @media  (min-width:320px)and (max-width:800px)
+    {
+        #images1{
+          width: 100%;
+            min-height: 100vh;}
+            .service-box {
+
+                margin-top: 65px;
+                        background-color: #fff;
+                        padding: 2.5rem 1.3rem;
+                        border-radius: 1rem;
+                        margin-bottom: 3rem;
+                        text-align: center;
+                    font-family: 'Montserrat';
+                   width: 100%;
+                    }
+           
+        }
+        @media  (min-width:320px)and (max-width:800px)
+        {
+            
+                #inputme textarea{
+        
+                    min-height: 281px;
+                    width: 100%;
+                    font-style: oblique;
+                    font-family: 'Montserrat';
+                    border-radius: 8px;
+                  }
+                #button {
+                  justify-content: center;
+                  display: flex;
+                 
+                }
+            }
+               
+            
+
+@media  (min-width:320px)and (max-width:800px)
+    {
+  .container-fluid h1{
+           
+            font-size: 5.5rem;
+            color: #ffffff;
+            margin-top: 113px;
+            margin-left: 0;
+            font-family: 'Roboto';
+           width: 100%;
+        }
+        .container-fluid h3{
+           
+            font-size: 2.5rem;
+            color: #ffffff;
+            font-family: 'Roboto';
+            margin-left: 0;
+          
+        
+        }
+        .container-fluid h4{
+           
+            /* text-align: center; */
+            color: #ffffff;
+            /* font-family:'Montserrat'; */
+            font-family: 'Roboto';
+            margin-left: 94px;
+            font-size: 1.5rem;
+        /* width: 100%; */
+        }
+        .container-fluid{
+ 
+    min-height: 100vh;
+
+  }  
+  #navbarSupportedContent{
+    align-items: end;
+    margin-left: 0;
+    
+}
+  #namev h5 img{
+
+
+    margin-top: -11px;
+    margin-left: 0;
+    margin-top: -0}
+    
+#about h3 {
+   text-align: center;
+margin-top: 0;
+font-size: 1.75rem;
+font-style: oblique;
+width: 100%;}
+#about h5 {
+    text-align: center;
+ margin-top: 53px;
+ font-size: 1.75rem;
+ width: 100%;
+ }
+ #imagess img{
+    margin-top: -92px;
+      width: 100px;
+    border-radius: 78px;
+    background: #a5b1a5;
+    text-align: center;
+box-shadow: 0 0 0 10px #d5dde5;
+display: block;}
+ #fourimg{
+    margin-top: 37px;
+    margin-bottom: 34px;
+   
+}
+#backimg{
+    background-image: url(images/background6-1920x1280.jpg);
+}
+#backimg{
+    min-height: 50vh;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.service-box  h3
+{
+    margin-top: 0;
+    font-size: 2.75rem;
+    font-family: initial ;
+}
+
+#small img{
+    width: 100%;
+    height: 368px;padding: 20px;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    background-color: white;
+
+}
+.service-box1 {
+    color: #fff;
+    width: 100%;
+        margin-top: 65px;
+                background-color: #4e4a4a;
+                padding: 2.5rem 1.3rem;
+                border-radius: 1rem;
+                margin-bottom: 3rem;
+                text-align: center;
+            font-family: 'Montserrat';
+            }
+    }
+   
+        

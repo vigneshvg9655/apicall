@@ -1,0 +1,71 @@
+body
+{
+    height: auto;
+    min-height: 100vh;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 1.5;
+}
+.btn-group button{
+    font-size: larger;
+    background-color: #1dc9cb !important;
+        border-color: #1dc9cb !important;
+        transition: all .5s;
+        color: #ffffff !important;
+}
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: end;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: large;
+}#image{
+    background-image: url(images/artiom-vallat-558027-unsplash-1519757244-94.181.200.62-1920x1280.jpg );
+    height: 800px;
+    width: auto;
+    margin-top: -235px;
+   z-index: 0;
+}
+#Travel{
+
+    text-align: center;
+    display: flow-root;
+    justify-content: center;
+    margin-top: 33rem;
+    
+}
+#Travel h3{
+
+    font-size: 3rem;
+        font-family: sans-serif;
+
+    color: black;
+    
+}
+#Travel p{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#Travel a{
+    font-size: larger;
+    margin: 20px;
+    height: 51px;
+    width: 151px;
+    color:black;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+
+
+/* @media only navbar-expand-lg navbar-nav nav-link(max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */

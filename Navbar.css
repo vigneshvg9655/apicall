@@ -1,0 +1,228 @@
+body
+{
+    height: auto;
+    min-height: 100vh;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 1.5;
+}
+.btn-group button{
+    font-size: larger;
+    background-color: #1dc9cb !important;
+        border-color: #1dc9cb !important;
+        transition: all .5s;
+        color: #ffffff !important;
+}
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: end;
+    
+}.navbar-collapse{
+    position: fixed;
+    
+}.navbar>.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: large;
+}#image{
+    /* background-image: url(images/artiom-vallat-558027-unsplash-1519757244-94.181.200.62-1920x1280.jpg ); */
+    /* height: 1000px; */
+    width: auto;
+    margin-top: -235px;
+   z-index: 0;
+   min-height: 100vh;
+}
+#image{
+    background-image: url(images/artiom-vallat-558027-unsplash-1519757244-94.181.200.62-1920x1280.jpg );
+    
+/* Full height */
+height: 150%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#Travel{
+
+    text-align: center;
+    display: flow-root;
+    justify-content: center;
+    margin-top: 33rem;
+    
+}
+#Travel h3{
+
+    font-size: 3rem;
+        font-family: sans-serif;
+
+    color: black;
+    
+}
+#Travel p{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#Travel a{
+    font-size: larger;
+    margin: 20px;
+    height: 51px;
+    width: 151px;
+    color:black;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+img{
+   
+   width: 362px; 
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+#lorem{  
+    color: #8d97ad;  
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+
+}
+#b1{
+    
+    
+
+
+}
+#stye{
+    padding: 3rem 2rem;
+  color: #8d97ad;  
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+ 
+  line-height: 1.6;
+}
+.text-success{
+    font-family: serif;
+    font-size: 30px;
+    color: #aaedce!important;
+}
+#cont{
+    margin-top: 70px;
+    font-size: 1.5rem;
+}
+#border{
+    width: 100%;
+    border-style: groove;
+    height: auto;
+    border-bottom: none;
+    border-width: thin;
+}
+#border1
+{
+    width: 100%;
+    border-style: groove;
+    height: auto;
+    border-top: none;
+    border-width: thin;
+    border-right:thin ;
+    
+}
+#lorem1{
+color: #8d97ad;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 109px;
+}
+#inputimage{
+
+width: auto;
+height: 400px;
+z-index: 0;
+/* margin-top: 141px; */
+
+}
+#inputimage{
+    background-image: url(./images/background6-1920x1280.jpg);
+/* Full height */
+/* height: 200px;  */
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h3{
+    margin-top: 100px;
+    color: white;
+    font-size: 1.75rem;
+    font-size: 3rem;
+    height: 42px;
+}
+#inputemail{
+    width: 334px;
+    
+    margin-top: 73px;
+
+    font-family: math;
+    font-size: x-large;
+    line-height: inherit;
+
+}#color{
+    background: linear-gradient(45deg, #2bdc9d, #1dc9cb);
+}#styel{
+    margin-top: 126px;
+    background: linear-gradient(45deg, #2bdc9d, #1dc9cb);
+    padding: 3rem 2rem;
+    color: #8d97ad;  
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 300;
+   
+    line-height: 1.6;    border-radius: 3px;
+}
+#stye2{
+    margin-top: 126px;
+    background: linear-gradient(45deg, #188ef4, #306de8);
+    padding: 3rem 2rem;
+    color: #8d97ad;  
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 300;
+   
+    line-height: 1.6;    border-radius: 3px;
+}
+#stye3{  
+    margin-top: 126px;
+      background: linear-gradient(45deg, #ff4f7b, #ff695c);
+    padding: 3rem 2rem;
+    color: #8d97ad;  
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 300;
+   
+    line-height: 1.6;    border-radius: 3px;
+}
+/* @media only navbar-expand-lg navbar-nav nav-link(max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */

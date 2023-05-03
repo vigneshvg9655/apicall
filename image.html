@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <script src="next.js"></script>
+</head>
+
+    <!-- <div id="slider" style="width: 400px; height: 300px;">
+        <img src="" alt="Image Slider">
+      </div>
+      
+      <script>
+      const slider = document.getElementById('slider');
+      const images = [
+      'images/cube1.jpg","images/cube1.jpg'
+      ];
+      let currentImageIndex = 0;
+      
+      function startSlideshow() {
+        setInterval(() => {
+          slider.children[0].src = images[currentImageIndex];
+          currentImageIndex = (currentImageIndex + 1) % images.length;
+        }, 2000);
+      }
+      
+      startSlideshow();
+      </script>
+
+<div class="row">
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+</div> -->
+
+<body>
+
+ <center>
+  
+ 
+<br>
+<div>
+
+
+
+</div>
+  
+  <div style="display: flex; justify-content:space-around">
+  <!-- <input type="button" value="back" onclick="back()">
+  
+   <input type="button" value="front" onclick="front()">
+   -->
+ </div>
+  
+  <div onload="front()">
+
+    <img src="images/cube1.jpg" id="im" width="400px" height="400px">
+  
+hi im VIGNESH
+
+
+  </div>
+  
+  
+</center>
+<a href="https://www.google.com/search?q=google+fonts&oq=google+fonts&aqs=chrome.0.69i59j0i433i512l3j0i131i433i512j69i60l3.3999j0j7&sourceid=chrome&ie=UTF-8">VIGNESH faceb</a>
+<</i>
+<script>
+
+
+var x = 0;
+
+function front() {
+ var ar = new Array("images/cube1.jpg","images/cube.webp","images/cube1.jpg","images/cube1.jpg");x++;
+
+
+ if (x > 4) {
+
+x = 0;
+
+ //clearInterval;
+ }
+
+ document.getElementById("im").src = ar[x];
+
+}
+
+setInterval(front,3000);
+</script>
+</body>
+</html>
+
+
+<!-- // var sliding=document.getElementById(sliding);
+let image=new Array( "images/cube1.jpg","images/cube1.jpg");
+console.log("image sssssssssssssssssssssssssssssssssssssssssssssssssssss",image )
+
+var len=image.length;
+var i=0;
+function slider(){
+    if(i>len-1){
+    i=0;
+}
+sliding.src = image[i];
+i++;
+setTimeout('slider()',2000);
+} -->

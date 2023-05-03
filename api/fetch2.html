@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetcht2</title>
+</head>
+<style>
+table tr th {
+    border: 1px solid grey;
+    background-color: aqua;
+}
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>userId</th>
+                <th>id</th>
+                <th>title</th>
+                <th>completed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        
+        <script>
+ 
+fetch('https://jsonplaceholder.typicode.com/todos')
+ .then(res => res.json())
+ .then(user =>{
+ console.log(user)
+
+
+ html=""
+
+ user.forEach(e => {
+
+ html+=`<tr>
+
+    <td>
+
+${e.userId}
+
+</td>
+ <td>
+
+ ${e.id}
+
+ </td>
+
+ <td>
+
+ ${e.title}
+
+ </td>
+
+ <td>
+
+ ${e.completed}
+
+ </td>
+
+ </tr>`
+
+ });
+
+ console.log(html)
+
+ document.getElementsByTagName("tbody")[0].innerHTML=html
+ })
+  </script>
+    </table>
+</body>
+</html>
