@@ -7,43 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-    
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required>
-    
-        <button type="submit">Submit</button>
-      </form>
-      
     <script>
-        const form = document.querySelector('form'); 
-        
-        form.addEventListener('submit', (event) => {
-          event.preventDefault(); 
-        
-          const nameInput = document.querySelector('input[name="name"]');
-          const ageInput = document.querySelector('input[name="age"]');
-        
-          const name = nameInput.value;
-          const age = ageInput.value; 
-          
-          fetch('https://example.com/api/user', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ name, age }) 
-          })
-          .then(response => response.json()) 
-          .then(data => {
-            console.log(data);
-          })
-          .catch(error => {
-            console.error(error); 
-          });
-        });</script>
+           fetch('https://rapidapi.com/fraudsentinel-ltd-fraudsentinel-ltd-default/api/fraudsentinel/')
+                .then(res => res.json())
+                .then(user => {
+
+                    console.log(user)})
+    </script>
+
 </body>
 </html>

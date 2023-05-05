@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,21 @@
     <title>Fetcht2</title>
 </head>
 <style>
-table tr th {
-    border: 1px solid grey;
-    background-color: aqua;
-}
+    table tr th {
+        border: 1px solid grey;
+        background-color: aqua;
+    }
 </style>
+
 <body>
+    <form action="">
+        <!-- name:  <input type="text">  -->
+        title <input type="text" name="title" value="title">
+
+        <input type="button" value="insert">
+        <input type="button" value="update">
+
+    </form>
     <table>
         <thead>
             <tr>
@@ -20,6 +30,10 @@ table tr th {
                 <th>id</th>
                 <th>title</th>
                 <th>completed</th>
+                <th>edit</th>
+                <!-- <th>name</th> -->
+
+
             </tr>
         </thead>
         <tbody>
@@ -30,20 +44,21 @@ table tr th {
                 <td></td>
             </tr>
         </tbody>
-        
+
         <script>
- 
-fetch('https://jsonplaceholder.typicode.com/todos')
- .then(res => res.json())
- .then(user =>{
- console.log(user)
+            let editId = 0
+            let editTitle = ''
+            fetch('https://jsonplaceholder.typicode.com/todos')
+                .then(res => res.json())
+                .then(user => {
+                    console.log(user)
 
 
- html=""
+                    html = ""
 
- user.forEach(e => {
+                    user.forEach(e => {
 
- html+=`<tr>
+                        html += `<tr>
 
     <td>
 
@@ -67,16 +82,28 @@ ${e.userId}
  ${e.completed}
 
  </td>
+ <td>
+
+    <input type="button" value="Edit" name="title"  onclick="editDetail('${e.title}', ${e.id})" />
+
+</td>
 
  </tr>`
 
- });
+                    });
 
- console.log(html)
+                    console.log(html)
 
- document.getElementsByTagName("tbody")[0].innerHTML=html
- })
-  </script>
+                    document.getElementsByTagName("tbody")[0].innerHTML = html
+                })
+
+            function editDetail(title, id) {
+                console.log('EEEEEEEEEE', title, id)
+                editId = id
+                editTitle = title
+            }
+        </script>
     </table>
 </body>
+
 </html>

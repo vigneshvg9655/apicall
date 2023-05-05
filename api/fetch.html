@@ -14,7 +14,7 @@
 </style>
 
 <body>
-    <table>
+     <table>
         <thead>
             <tr>
                 <th>Name</th>
@@ -38,23 +38,9 @@
 
                         html += `<tr>
 
- <td>
-
- ${e.name}
-
- </td>
-
- <td>
-
- ${e.username}
-
- </td>
-
- <td>
-
- ${e.email}
-
- </td>
+ <td>${e.name}</td>
+ <td>${e.username}</td>
+ <td>${e.email}</td>
 
  </tr>`
 
@@ -66,8 +52,9 @@
                 }).catch((err) => {
                     console.log('DDD', err)
                 })
-        </script>
+        </script> 
     </table>
+    
 </body>
 
 </html>
